@@ -108,6 +108,10 @@ body {
   overflow: hidden;
 }
 
+.news-slider a {
+  text-decoration: none;
+}
+
 .news-slider .news-slide {
   max-width: 35em;
   margin-right: 1.25em;
