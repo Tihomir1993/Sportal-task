@@ -1,7 +1,6 @@
 .site-footer {
     padding: 3.25em 0;
     .list-footer {
-        padding: 0;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
@@ -14,6 +13,10 @@
                 text-decoration: none;
                 font-size: 1.875em;
                 color: var(--color-primary);
+                img {
+                    width: 60px;
+                    height: 38px;
+                }
                 span {
                     margin-left: 20px;
                 }

@@ -5,11 +5,11 @@ body {
 }
 
 .site {
-  padding: 0 6.5em;
+  padding: 0 0 0 6.5em;
   max-width: 120em;
 }
 
-.site-header {
+.site-header .header-navigation {
   padding: 2em 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -23,14 +23,14 @@ body {
   margin-bottom: 6.25em;
 }
 
-.site-header .site-logo {
+.site-header .header-navigation .site-logo {
   width: 100%;
   max-width: 322px;
   height: 74px;
   display: inline-block;
 }
 
-.site-header .site-logo .logo {
+.site-header .header-navigation .site-logo .logo {
   width: 100%;
   height: 74px;
   display: inline-block;
@@ -45,7 +45,6 @@ body {
 }
 
 .site-header .header-list .list-item {
-  list-style: none;
   margin: 0 4.75em;
 }
 
@@ -60,7 +59,7 @@ body {
 }
 
 .site-header .header-list .list-item:last-child {
-  margin-right: 4em;
+  margin-right: 11em;
 }
 
 .site-footer {
@@ -68,7 +67,6 @@ body {
 }
 
 .site-footer .list-footer {
-  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,6 +92,11 @@ body {
   text-decoration: none;
   font-size: 1.875em;
   color: var(--color-primary);
+}
+
+.site-footer .list-footer .list-item a img {
+  width: 60px;
+  height: 38px;
 }
 
 .site-footer .list-footer .list-item a span {
@@ -174,5 +177,14 @@ body {
   --color-tetriary: #666666;
   --color-invert: #FFFFFF;
   --bg-primary: #000;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
 }
 /*# sourceMappingURL=master.css.map */
